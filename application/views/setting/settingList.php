@@ -435,6 +435,17 @@ $genderList = $this->customlib->getGender();
                                                         <span class="radiotext">gray</span>
                                                     </label>                                                    
                                                 </div>
+                                                <div class="col-sm-3 col-xs-6 col20">
+                                                    <label class="radio-img">
+                                                        <input name="theme" <?php
+                                                        if ($settinglist->theme == "modern.jpg") {
+                                                            echo "checked";
+                                                        }
+                                                        ?> value="modern.jpg" type="radio" />
+                                                        <img src="<?php echo base_url('backend/images/modern.jpg'.img_time()); ?>">
+                                                        <span class="radiotext">modern</span>
+                                                    </label>                                                    
+                                                </div>
                                             </div><!--./row-->
                                         </div>
                                     </div>

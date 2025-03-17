@@ -1,0 +1,163 @@
+/* 
+ * Modern Theme - Font Awesome Overrides
+ * This file contains custom styles for Font Awesome icons
+ */
+
+/* Override Font Awesome icon colors to match our theme */
+.fa-primary {
+  color: var(--primary-color);
+}
+
+.fa-secondary {
+  color: var(--secondary-color);
+}
+
+.fa-success {
+  color: var(--success-color);
+}
+
+.fa-danger {
+  color: var(--danger-color);
+}
+
+.fa-warning {
+  color: var(--warning-color);
+}
+
+.fa-info {
+  color: var(--info-color);
+}
+
+/* Dashboard specific icon styles */
+.info-box-icon .fa,
+.info-box-icon .fas,
+.info-box-icon .far,
+.info-box-icon .fal,
+.info-box-icon .fab {
+  font-size: 2rem;
+}
+
+/* Sidebar icon styles */
+.sidebar-menu .fa,
+.sidebar-menu .fas,
+.sidebar-menu .far,
+.sidebar-menu .fal,
+.sidebar-menu .fab {
+  width: 20px;
+  text-align: center;
+  margin-right: 0.5rem;
+}
+
+/* Button icon styles */
+.btn .fa,
+.btn .fas,
+.btn .far,
+.btn .fal,
+.btn .fab {
+  margin-right: 0.5rem;
+}
+
+.btn .fa-right,
+.btn .fas-right,
+.btn .far-right,
+.btn .fal-right,
+.btn .fab-right {
+  margin-right: 0;
+  margin-left: 0.5rem;
+}
+
+/* Navbar icon styles */
+.navbar .fa,
+.navbar .fas,
+.navbar .far,
+.navbar .fal,
+.navbar .fab {
+  font-size: 1.25rem;
+}
+
+/* Icon sizes */
+.fa-xs,
+.fas-xs,
+.far-xs,
+.fal-xs,
+.fab-xs {
+  font-size: 0.75rem;
+}
+
+.fa-sm,
+.fas-sm,
+.far-sm,
+.fal-sm,
+.fab-sm {
+  font-size: 0.875rem;
+}
+
+.fa-md,
+.fas-md,
+.far-md,
+.fal-md,
+.fab-md {
+  font-size: 1rem;
+}
+
+.fa-lg,
+.fas-lg,
+.far-lg,
+.fal-lg,
+.fab-lg {
+  font-size: 1.25rem;
+}
+
+.fa-xl,
+.fas-xl,
+.far-xl,
+.fal-xl,
+.fab-xl {
+  font-size: 1.5rem;
+}
+
+.fa-2x,
+.fas-2x,
+.far-2x,
+.fal-2x,
+.fab-2x {
+  font-size: 2rem;
+}
+
+.fa-3x,
+.fas-3x,
+.far-3x,
+.fal-3x,
+.fab-3x {
+  font-size: 3rem;
+}
+
+/* Icon with badge */
+.fa-with-badge,
+.fas-with-badge,
+.far-with-badge,
+.fal-with-badge,
+.fab-with-badge {
+  position: relative;
+  display: inline-block;
+}
+
+.fa-badge,
+.fas-badge,
+.far-badge,
+.fal-badge,
+.fab-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: white;
+  background-color: var(--danger-color);
+  border-radius: 50%;
+}
